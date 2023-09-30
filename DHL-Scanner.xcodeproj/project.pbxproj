@@ -83,6 +83,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				43DA5DA22AC7A06A00C39C2D /* PBXTargetDependency */,
 			);
 			name = "DHL-Scanner";
 			productName = "DHL-Scanner";
@@ -113,6 +114,9 @@
 				Base,
 			);
 			mainGroup = 43B2A9C02AC79B75006BFFDB;
+			packageReferences = (
+				43DA5DA02AC7A05500C39C2D /* XCRemoteSwiftPackageReference "SwiftLint" */,
+			);
 			productRefGroup = 43B2A9CA2AC79B75006BFFDB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -145,6 +149,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43DA5DA22AC7A06A00C39C2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 43DA5DA12AC7A06A00C39C2D /* SwiftLintPlugin */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		43B2A9D62AC79B76006BFFDB /* Debug */ = {
@@ -357,6 +368,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		43DA5DA02AC7A05500C39C2D /* XCRemoteSwiftPackageReference "SwiftLint" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/SwiftLint";
+			requirement = {
+				kind = exactVersion;
+				version = 0.53.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		43DA5DA12AC7A06A00C39C2D /* SwiftLintPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 43DA5DA02AC7A05500C39C2D /* XCRemoteSwiftPackageReference "SwiftLint" */;
+			productName = "plugin:SwiftLintPlugin";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 43B2A9C12AC79B75006BFFDB /* Project object */;
 }
