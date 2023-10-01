@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		437AB29F2ACA1B8D00D7710A /* CameraScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437AB29E2ACA1B8D00D7710A /* CameraScanner.swift */; };
+		437AB2A12ACA1BBF00D7710A /* CameraScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437AB2A02ACA1BBE00D7710A /* CameraScannerViewController.swift */; };
 		43B2A9CD2AC79B75006BFFDB /* ScannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B2A9CC2AC79B75006BFFDB /* ScannerApp.swift */; };
 		43B2A9CF2AC79B75006BFFDB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B2A9CE2AC79B75006BFFDB /* ContentView.swift */; };
 		43B2A9D12AC79B76006BFFDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43B2A9D02AC79B76006BFFDB /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		437AB29E2ACA1B8D00D7710A /* CameraScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraScanner.swift; sourceTree = "<group>"; };
+		437AB2A02ACA1BBE00D7710A /* CameraScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraScannerViewController.swift; sourceTree = "<group>"; };
 		43B2A9C92AC79B75006BFFDB /* DHL-Scanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DHL-Scanner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		43B2A9CC2AC79B75006BFFDB /* ScannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerApp.swift; sourceTree = "<group>"; };
 		43B2A9CE2AC79B75006BFFDB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,6 +42,8 @@
 			children = (
 				43B2A9CE2AC79B75006BFFDB /* ContentView.swift */,
 				43B2A9CC2AC79B75006BFFDB /* ScannerApp.swift */,
+				437AB29E2ACA1B8D00D7710A /* CameraScanner.swift */,
+				437AB2A02ACA1BBE00D7710A /* CameraScannerViewController.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -145,6 +151,8 @@
 			files = (
 				43B2A9CF2AC79B75006BFFDB /* ContentView.swift in Sources */,
 				43B2A9CD2AC79B75006BFFDB /* ScannerApp.swift in Sources */,
+				437AB2A12ACA1BBF00D7710A /* CameraScannerViewController.swift in Sources */,
+				437AB29F2ACA1B8D00D7710A /* CameraScanner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +291,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Your camera is used to scan text";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -320,6 +329,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Your camera is used to scan text";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
